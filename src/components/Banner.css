@@ -1,0 +1,207 @@
+.banner{
+   margin-top: -100px;
+    display: flex;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #000 0%, rgba(0,0,0,0)90%),url("https://cdn.archpaper.com/wp-content/uploads/2016/12/2494_079D.jpg") center center;
+}
+.banner__info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    padding-top: 15vh;
+    padding-bottom: 70px;
+    width: 800px;
+}
+.banner__info > button{
+    background-color: #EB8404;
+    color: black;
+    text-transform: inherit;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 600;
+}
+.banner__info > h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 672px;
+    height: 25px;
+    font-family: "Lexend";
+    font-size: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.banner__info > h1{
+    width: 992px;
+    height: 125px;
+    font-family: "Lexend";
+    font-size: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    text-align: center;
+
+}
+.booking__vector{
+    width: 25px;
+}
+.booking__vector1{
+    width: 34px;
+    margin-bottom: 19px;
+}
+
+.booking__div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.booking{
+    height: 185px;
+    width: 1200px;
+    margin-top: -42px;
+    border-radius: 0px;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0px 20px 90px -20px rgba(0,0,0,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.booking__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.booking__vector{
+    height: 18.75px;
+    width: 20.8px;
+    border-radius: 0px;
+}
+
+.booking__header > h4{
+    height: 25px;
+    font-family: "lexend";
+    font-size: "20px";
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    height: 25px;
+    width: 124px;
+    border-radius: nullpx;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.booking_vector2{
+    height: 14px;
+    width: 14px;
+    border-radius: 0px;
+}
+
+.booking__bof > h2{
+    height: 50px;
+    font-family: "lexend";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: auto;
+    border-radius: nullpx;
+    margin-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.booking__bof > h4{
+    height: 25px;
+    font-family: "lexend";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: auto;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.banner__main__div{
+    padding: 20px;
+}
+
+.booking__bo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fadded__text{
+    height: 75px;
+    font-family: "lexend";
+    font-size: normal;
+    width: 164px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000;
+    opacity: 0.3;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.booking__button{
+    margin-bottom: -78px;
+    margin-right: -81px;
+    height: 54px;
+    background: #EB8A04;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking__button > button{
+    width: 139px;
+    height: 20px;
+    font-family: "lexend";
+    font-size: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000;
+    background: inherit;
+    border: none;
+}
+
+.booking__no{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner__search{
+    position: absolute;
+    top: 680px;
+    z-index: 16;
+}
+

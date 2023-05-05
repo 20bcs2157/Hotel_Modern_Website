@@ -1,0 +1,74 @@
+.card{
+    margin: 10px;
+    box-sizing: 0px 30px 60px -20px rgba(0,0,0,0.75);
+    cursor: pointer;
+    width: 370px;
+    height: 520px;
+    left: 120px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card:hover{
+    transform: scale(1.07);
+}
+.card > img{
+    width: 330px;
+    height: 220px;
+    box-shadow: 0px 25px 30px -10px rgba(0,0,0,0.2);
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.card__info{
+    margin-top: -9px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    border: 1;
+}
+
+.card__info > h2{
+    font-family: Lexend;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card__info > h4{
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__button > button{
+    color: black;
+    background-color: #EB8A04;
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 54px;
+    width: 330px;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 22px;
+}
