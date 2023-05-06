@@ -1,0 +1,50 @@
+.advantages{
+    position: relative;
+    height: 810px;
+    background: linear-gradient(90deg, #000 0%, rgba(0,0,0,0)100%),
+    linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://cdn.archpaper.com/wp-content/uploads/2016/12/2494_079D.jpg"),#c4c4c4;
+}
+.advantages__info{
+    display: flex;
+    margin-left: 90px;
+    justify-content: center;
+    flex-direction: column;
+    background: transparent;
+    color: white;
+    padding-left: 40px;
+}
+.adv__header
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.adv__header > h1{
+    font-family: Lexend;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 60px;
+    width: 753px;
+    border-radius: 0px;
+}
+.adv__header > h4{
+    font-family: Lexend;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.5em;
+    text-align: center;
+    height: 20px;
+    width: 518px;
+    border-radius: 0px;
+}
+.adv__img{
+    height: 50px;
+    width: 50px;
+    border-radius: 0px;
+    margin-right: 20px;
+}

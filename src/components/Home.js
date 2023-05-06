@@ -4,6 +4,7 @@ import Banner from './Banner'
 import Card from './Card';
 import Categories from './Categories'
 import Advantage from './Advantage';
+import Footer from './Footer';
 
 let p1 = require('../assets/baba.jpg');
 let p2 =  require("../assets/krishna.jpg");
@@ -103,6 +104,7 @@ export const Home = () => {
               </h4>
             </div>
           </div> 
+          <Footer />
       </div>
   )
 }
