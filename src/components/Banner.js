@@ -3,11 +3,13 @@ import './Banner.css'
 import { Button } from '@material-ui/core'
 import { format } from 'date-fns';
 import { DateRange } from 'react-date-range';
+import { useNavigate } from 'react-router-dom';
 
 let vector = require("../assets/vector.jpg");
 let adult = require("../assets/adult.jpg");
 
 const Banner = () => {
+    const navigate = useNavigate();
 
     const [date,setDate] = useState([
         {
@@ -33,6 +35,10 @@ const Banner = () => {
         })
     }
 
+    const handle = () => {
+        navigate("/search");
+    }
+
   return (
     <>
     <div className='banner'>
@@ -55,7 +61,7 @@ const Banner = () => {
         <h1 style={{marginTop: "0px" , color: "#EB8A04"}}> 
             Let us plan you a perfect International Holidays
         </h1>
-        <Button> EXplore Now </Button>
+        <Button onClick={handle}> EXplore Now </Button>
         </div>
     </div>
     <div className='booking__div'>
@@ -131,7 +137,7 @@ const Banner = () => {
                         Hope You Have A Nice Experience...
                     </h4>
                     <div className='booking__button'>
-                        <button>Check Availability</button>
+                        <button onClick={handle}>Check Availability</button>
                     </div>
                 </div>
             </div>

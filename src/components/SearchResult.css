@@ -1,0 +1,50 @@
+.searchresult{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+.searchresult:hover{
+    opacity: 0.8;
+}
+.searchresult > img{
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.searchresult__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.searchtresult__infotop{
+    width: 40vw;
+}
+.searchtresult__infotop > h3{
+    font-weight: 300;
+    margin-top: 10px;
+}
+.searchtresult__infotop > p{
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+}
+.searchresult__infobutton{
+    display: flex;
+    justify-content: space-between;
+}
+.searchresult__star{
+    color: red;
+}
+.searchresults__price > p{
+text-align: right;
+}
+.searchresults__price{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}

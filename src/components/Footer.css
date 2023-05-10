@@ -1,6 +1,6 @@
 .footer{
     padding: 20px;
-    background-color: gray;
+    background-color: blue;
     bottom: 0;
     text-align: center;
     color: white;
@@ -19,7 +19,9 @@
 .logo__header__footer{
     font-family: Lexend;
     font-size: 36px;
+    font-weight: 700;
     line-height: 45px;
+    letter-spacing: 0em;
     text-align: left;
     height: 45px;
     width: 92px;
@@ -43,9 +45,9 @@
 
 .footer__top{
     padding: 0px;
-    border-color: gray;
+    border-color: blue;
     text-align: center;
-    color: black;
+    color: white;
     display: flex;
     flex-direction: column;
 }
@@ -63,5 +65,5 @@
     color: rgba(225,225,255,1);
 }
 .footer__top > p{
-    background-color: gray;
+    background-color: blue;
 }

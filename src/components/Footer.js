@@ -1,18 +1,21 @@
 import React from 'react'
 import "./Footer.css";
 import Logo from "../assets/logo.png.png";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <div className='footer__top'>
         <div  className='footer'>
             <div className='footer__left'>
-                <img className='logo__header__footer' src={Logo} alt=''/>
+            <Link to="/" style={{textDecoration: 'none'}}>
+            <img className='logo__header__footer' src={Logo} alt=''/>
+            </Link>
                 <div style={{display:"flex",alignItems:'center',justifyContent:"space-between",width:"300px"}}>
                     <img src='https://img.icons8.com/ios-filled/24/ffffff/facebook-new.png' alt=''/>
                     <img src='https://img.icons8.com/ios-glyphs/24/ffffff/instagram-new.png' alt=''/>
                     <img src='https://img.icons8.com/ios-glyphs/24/ffffff/twitter--v1.png' alt=''/>
-                    <img src='https://img.icons8.com/ios-filled/24/ffffff/linkdedin.png' alt=''/>
+                    <img src='https://img.icons8.com/ios-filled/24/ffffff/linkedin.png' alt=''/>
                 </div>
             </div>
             <div className='footer__right'>
