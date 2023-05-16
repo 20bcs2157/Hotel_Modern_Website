@@ -9,17 +9,17 @@ let five = require("../assets/five.png");
 
 const items = [
     {
-        Image:one,
+        Image:three,
         text:'BREAKFAST',
         subtext:'There has never been a sadness that can not be cured with breakfast foods.'
     },
     {
-        Image:two,
+        Image:one,
         text:'WIFI',
         subtext:'Get the best Wifi connectivity without any interference.'
     },
     {
-        Image:three,
+        Image:five,
         text:'PICKUP',
         subtext:'There has never been a sadness that can not be cured with breakfast foods.'
 
@@ -27,12 +27,12 @@ const items = [
     {
         Image:four,
         text:'AIR TICKETS',
-        subtext:'There has never been a sadness that can not be cured with breakfast foods.'
+        subtext:'Book your tickets and traveling with smile.'
     },
     {
-        Image:five,
-        text:'BREAKFAST',
-        subtext:'There has never been a sadness that can not be cured with breakfast foods.'
+        Image:two,
+        text:'DEALS',
+        subtext:'The best flight deals to everywhere, from anywhere.'
     },
 ]
 

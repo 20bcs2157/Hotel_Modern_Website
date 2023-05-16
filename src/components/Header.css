@@ -1,17 +1,18 @@
 .header{
     display: flex;
-    justify-content: space-between;
     align-content: center;
+    justify-content: space-between;
     background: transparent;
     z-index: 100;
     width: 100%;
     position: relative;
-    margin-left: 110px;
 }
 .header__logo{
     width: 100px;
     height: 95px;
-    margin-left: 120px;
+    margin-left: 15px;
+    margin: 15px;
+    background: black;
 }
 .header__center
 {
@@ -30,12 +31,12 @@
     align-items: center;
     justify-content: space-between;
     width: auto;
-    margin-right: 80px;
+    margin-right: 43%;
 }
 .header__button{
     background-color: lightgray !important;
     margin-right: 10px !important;
-    width: 202px !important;
+    width: 90px !important;
     height: 45px !important;
     background: #fff !important;
     font-family: "Lexend";
@@ -45,15 +46,4 @@
     line-height: 20px;
     text-align: center;
     border-radius: none !important;
-}
-.center__button{
-    padding: 50px;
-    border: none;
-    font-family: "Lexend";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #fff;
-    justify-items: flex-end;
 }

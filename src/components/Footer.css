@@ -64,6 +64,104 @@
     border-radius: 0;
     color: rgba(225,225,255,1);
 }
-.footer__top > p{
-    background-color: blue;
-}
+ 
+.FooterContainer {
+    background: linear-gradient(
+      -30deg,
+      rgba(0, 0, 0, 1) 52%,
+      rgb(24, 24, 24) 51%
+    );
+    width: 100%;
+    margin-top: 24%;
+    text-align: center;
+    bottom: 0%;
+    z-index: -1;
+    position: sticky;
+    /* padding: 5rem 0rem 0.5rem 0rem;
+    position: sticky;
+    bottom: 0%;
+    z-index: -1; */
+  }
+  
+  .icons {
+    margin-bottom: 20%;
+    padding: 8px;
+  }
+  
+  .contactIcons {
+    color: var(--blueContrast);
+    background-color: var(--lighterTheme);
+    padding: 1rem;
+    font-size: 5rem;
+    border-radius: 6px;
+  }
+  
+  .contactIcons:hover {
+    color: #027bcc;
+  }
+  
+  .FooterGmailLink {
+    color: var(--blueContrast);
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  @media screen and (max-width: 998px) {
+    html {
+      font-size: 58%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    html {
+      font-size: 54%;
+    }
+  }
+  @media screen and (max-width: 668px) {
+    html {
+      font-size: 52%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    html {
+      font-size: 46%;
+    }
+  }
+
+  @media screen and (max-width: 282px) {
+    html {
+      font-size: 42%;
+    }
+  }
+
+   
+  html,
+  body {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  
+  :root {
+    --white: #fff;
+    --black: #000;
+    --darkTheme: #100f10;
+    --lightTheme: #1b1b1b;
+    --lighterTheme: #242424;
+    --blueContrast: #0089e4;
+  }
+  
+.font{
+    font-size: 10px;
+  }

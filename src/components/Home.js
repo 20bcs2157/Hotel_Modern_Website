@@ -18,7 +18,7 @@ export const Home = () => {
         <div className='home__categories'>
           <div style={{display: 'flex',alignItems:"flex-end",justifyContent:"center",flexDirection:"column",marginTop:"180px", 
           marginBottom:"90px", height: "15vh"}}>
-            <div style={{background: "#EB8A04", height:"170px", width:"50%", zIndex:"-1",position:'absolute'}}>
+            <div style={{ height:"170px", width:"50%", zIndex:"-1",position:'absolute'}}>
             </div>
             <div style={{display:'flex',alignItems:'center',flexDirection:'column',justifyContent:'center',background:'transparent',zIndex:'1',
           marginRight:'480px'}}>
@@ -33,13 +33,13 @@ export const Home = () => {
           <Categories />
           <div style={{display: '',alignItems:"center",justifyContent:"center",flexDirection:"column",marginTop:"60px", 
           marginBottom:"120px", height: "15vh"}}>
-            <div style={{background: "#EB8A04", height:"170px", width:"50%", zIndex:"-1",position:'absolute'}}>
+            <div style={{ height:"170px", width:"50%", zIndex:"-1",position:'absolute'}}>
             </div>
             <div style={{display:'flex',alignItems:'center',flexDirection:'column',justifyContent:'center',background:'transparent',zIndex:'1',
           marginRight:'480px'}}>
-              <h1 style={{color:'blue',marginBottom:'0px',}}
-              className='quote__h1' >Choose What's Best For You!</h1>
-              <h4 style={{display:'flex',alignItems:'center',justifyContent:'center',color:'gray',marginTop:'0px'}}
+              <h1 style={{color:'blue',marginBottom:'4px',marginLeft: '40%'}}
+              className='quote__h1'>Choose What's Best For You!</h1>
+              <h4 style={{display:'flex',alignItems:'center',justifyContent:'center',color:'gray',marginTop:'0px',marginLeft:'40%'}}
               className='quote__h4'>
               Make your Vacation comfortable.
               </h4>
@@ -66,13 +66,14 @@ export const Home = () => {
         </div>
         <div style={{display: 'flex',alignItems:"flex-end",justifyContent:"center",flexDirection:"column",marginTop:"60px", 
           marginBottom:"120px", height: "15vh"}}>
-            <div style={{background: "#EB8A04", height:"170px", width:"50%", zIndex:"-1",position:'absolute'}}>
+            <div style={{ height:"170px", width:"100%", zIndex:"-1",position:'absolute'}}>
             </div>
             <div style={{display:'flex',alignItems:'center',flexDirection:'column',justifyContent:'center',background:'transparent',zIndex:'1',
-          marginRight:'480px'}}>
-              <h1 style={{color:'blue',marginBottom:'0px',}}
+            marginRight: '35%'
+          }}>
+              <h1 style={{color:'blue',marginBottom:'4px',}}
               className='quote__h1' >Luxury Redefined!</h1>
-              <h4 style={{display:'flex',alignItems:'center',justifyContent:'center',color:'gray',marginTop:'0px'}}
+              <h4 style={{display:'flex',alignItems:'center',justifyContent:'center',color:'gray',marginTop:'0px',}}
               className='quote__h4'>
               Luxury is Personal.
               </h4>
@@ -91,14 +92,14 @@ export const Home = () => {
           </div>
           <Advantage />
           <div style={{display: '',alignItems:"center",justifyContent:"center",flexDirection:"column",marginTop:"60px", 
-          marginBottom:"120px", height: "15vh"}}>
-            <div style={{background: "#EB8A04", height:"170px", width:"50%", zIndex:"-1",position:'absolute'}}>
+          marginBottom:"100px", height: "15vh"}}>
+            <div style={{ height:"170px", width:"100%", zIndex:"-1",position:'absolute'}}>
             </div>
             <div style={{display:'flex',alignItems:'center',flexDirection:'column',justifyContent:'center',background:'transparent',zIndex:'1',
-          marginRight:'480px'}}>
-              <h1 style={{color:'blue',marginBottom:'0px',}}
+          marginRight:'2%'}}>
+              <h1 style={{color:'blue',marginBottom:'4px',marginTop:'15%'}}
               className='quote__h1' >They Loved Our Hospitality</h1>
-              <h4 style={{display:'flex',alignItems:'center',justifyContent:'center',color:'gray',marginTop:'0px'}}
+              <h4 style={{display:'flex',alignItems:'center',justifyContent:'center',color:'gray',marginTop:'4px'}}
               className='quote__h4'>
               Explore the World with Ease.
               </h4>

@@ -2,6 +2,7 @@ import React from 'react'
 import './Searchpage.css';
 import { Button } from '@material-ui/core';
 import SearchResult from './SearchResult';
+import {firebase} from "../firebase";
 
 const rooms = [
   {
@@ -34,14 +35,15 @@ const rooms = [
 ]
 
 const Search = () => {
+  const email = firebase.auth().currentUser?.email;
   return (
     <div className='searchpage'>
       <div className='searchpage__data'>
-        <Button variend = "outlined">
+        {/*<Button variend = "outlined">
           USER NAME
-        </Button>
+  </Button>*/}
         <Button variend =" outlined">
-          USER MAIL
+          {email}
         </Button>
       </div>
       {rooms.map((data,index) => (

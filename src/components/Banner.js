@@ -4,11 +4,13 @@ import { Button } from '@material-ui/core'
 import { format } from 'date-fns';
 import { DateRange } from 'react-date-range';
 import { useNavigate } from 'react-router-dom';
+import {firebase} from "../firebase";
 
 let vector = require("../assets/vector.jpg");
 let adult = require("../assets/adult.jpg");
 
 const Banner = () => {
+    const email = firebase.auth().currentUser?.email;
     const navigate = useNavigate();
 
     const [date,setDate] = useState([
@@ -36,7 +38,12 @@ const Banner = () => {
     }
 
     const handle = () => {
-        navigate("/search");
+        if(!email){
+            alert("You have to login first")
+        }
+        else{
+            navigate("/search");
+        }
     }
 
   return (
